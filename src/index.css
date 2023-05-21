@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a{
+  text-decoration: none;
+  color: black !important;
+
+}
+
+p,h1{
+  color: black;
+}
+
+
+footer{
+  padding: 70px 0;
+  margin-top: 50px;
+}
+footer a{
+  padding: 8px 0 !important;
+  color: #8E8E8E !important;
+
+}
+
+
+
+select,input:focus{
+  box-shadow: none !important;
+}
+
+footer p{
+  color: #8E8E8E !important;
+
+}
+
+h5{
+  color: black;
+  font-weight: 400;
+}
+
+
+.search-input{
+  position: relative;
+}
+
+.search-input .number-of-recipes{
+  position: absolute;
+  top: 5px;
+  right: 3%;
+
+}
+
+.search-input .clear-icon{
+  position: absolute;
+  top: 10px;
+  right: 0%;
+cursor: pointer;
+}
+
+.load-more-btn button{
+  
+  color: black;
+  border: 1px solid black;
+  background: transparent;
+  margin: 40px auto;
+    padding: 8px 32px;
+    font-weight: 600;
+}
+
+.load-more-btn button:hover{
+
+  background: black;
+
+  color: white;
+
+}
